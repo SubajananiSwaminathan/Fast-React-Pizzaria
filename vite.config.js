@@ -3,7 +3,7 @@ import react from "@vitejs/plugin-react";
 import eslint from "vite-plugin-eslint";
 
 export default defineConfig({
-  base: "/Fast-React-Pizzaria/",
+  base: "/Fast-React-Pizzaria/Home",
   plugins: [
     react(),
     eslint({
