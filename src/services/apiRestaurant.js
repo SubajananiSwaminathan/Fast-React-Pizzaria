@@ -33,11 +33,11 @@ export async function createOrder(newOrder) {
   }
 }
 
-export async function updateOrder(id, updateObj) {
+export async function updateOrder(id, updateObject) {
   try {
     const response = await fetch(`${API_URL}/order/${id}`, {
       method: "PATCH",
-      body: JSON.stringify(updateObj),
+      body: JSON.stringify(updateObject),
       headers: {
         "Content-Type": "application/json",
       },
